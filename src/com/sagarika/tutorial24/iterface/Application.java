@@ -15,7 +15,14 @@ public class Application {
       
       Info info2 = new Machine();
       info2.showInfo();
+      
+      System.out.println();
+      
+      outputInfo(mn1);
+      outputInfo(p1);
     		  
 	}
-
+    private static void outputInfo(Info info){
+    	info.showInfo();
+    }
 }
